@@ -1,0 +1,106 @@
+
+html,
+body,
+header,
+.view {
+    height: 118%;
+}
+
+@media (min-width: 300px) {
+    html,
+    body,
+    header,
+    .view {
+      height: 2800px;
+    }
+}
+@media (min-width: 375px) {
+    html,
+    body,
+    header,
+    .view {
+      height: 3000px;
+    }
+}
+@media (min-width: 425px) {
+    html,
+    body,
+    header,
+    .view {
+      height: 3100px;
+    }
+}
+@media (min-width: 768px) {
+    html,
+    body,
+    header,
+    .view {
+    height: 2500px;
+    }
+}
+@media (min-width: 1024px) {
+    html,
+    body,
+    header,
+    .view {
+    height: 1250px;
+    }
+}
+@media (min-width: 1440px) {
+    html,
+    body,
+    header,
+    .view {
+    height: 1300px;
+    }
+}
+/* @media (max-width: 767px) {
+    html,
+    body,
+    header,
+    .view {
+    height: 1000px;
+    }
+} */
+/* @media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+    background: #3e5891 !important;
+    }
+    
+} */
+.top-nav-collapse {
+    background-color: #054169d8 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+
+
+.rgba-gradient {
+    /* background-image: url("images/r1.jpg"); */
+    background: linear-gradient(45deg, rgba(0, 247, 255, 0.438), rgba(10, 44, 105, 0.651) 100%);
+    /* background: linear-gradient(45deg, rgba(213, 193, 15, 0.6), rgba(75, 44, 9, 0.69) 100%); */
+}
+
+/**/
+
+.md-pills .nav-link.active {
+  color: #fff;
+  background-color: #616161;
+}
+button.close {
+  position: absolute;
+  right: 0;
+  z-index: 2;
+  padding-right: 1rem;
+  padding-top: .6rem;
+}
+
+/* .my-5 {
+    margin-top: 17% !important;
+} */
+
+/**/
+
