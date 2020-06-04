@@ -58,4 +58,12 @@ button.close {
 /* @import url('https://crmrkt.com/J03byx') */
 /* @import url(//db.onlinewebfonts.com/c/9bea185ed765307a2c0ed0e1e78c3c05?family=billieBoldHand); */
 /**/
+@media screen and ( max-height: 400px ){
+    html,
+    body,
+    header,
+    .view {
+    height: 600px;
+    }
+}
 
