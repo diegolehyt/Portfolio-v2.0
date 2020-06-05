@@ -17,52 +17,60 @@
   <link rel="shortcut icon" type="image/png" href="images/logo.png">
   <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Trade+Winds&display=swap" rel="stylesheet">
   <style>
-    @media (min-width: 300px) {
-        html,
-        body,
-        header,
-        .view {
-          height: 950px;
+
+
+    .top-nav-collapse {
+        background-color: #054169d8 !important;
+    }
+
+    .navbar:not(.top-nav-collapse) {
+        background: transparent !important;
+    }
+
+    @media (max-width: 991px) {
+        .navbar:not(.top-nav-collapse) {
+        background: #054169d8 !important;
         }
     }
-    @media (min-width: 375px) {
-        html,
-        body,
-        header,
-        .view {
-          height: 1000px;
-        }
+
+    .rgba-gradient {
+        /* background-image: url("images/r1.jpg"); */
+        background: linear-gradient(45deg, rgba(0, 247, 255, 0.438), rgba(10, 44, 105, 0.651) 100%);
+        /* background: linear-gradient(45deg, rgba(213, 193, 15, 0.6), rgba(75, 44, 9, 0.69) 100%); */
     }
-    @media (min-width: 425px) {
-        html,
-        body,
-        header,
-        .view {
-          height: 1000px;
-        }
+
+    /**/
+
+    .md-pills .nav-link.active {
+      color: #fff;
+      background-color: #616161;
     }
-    @media (min-width: 768px) {
-        html,
-        body,
-        header,
-        .view {
-        height: 654px;
-        }
+    button.close {
+      position: absolute;
+      right: 0;
+      z-index: 2;
+      padding-right: 1rem;
+      padding-top: .6rem;
     }
-    @media (min-width: 1024px) {
-        html,
-        body,
-        header,
-        .view {
-        height: 700px;
-        }
+    .center2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
     }
-    @media (min-width: 1440px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 100%;
+    }
+
+    @media (max-width: 740px) {
         html,
         body,
         header,
         .view {
-        height: 700px;
+        height: 1000px;
         }
     }
   </style>
